@@ -1,0 +1,47 @@
+.barra-vermelha {
+    background-color: #C9201B; 
+    color: #fff; 
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-vermelha a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.barra-vermelha a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color:lightgray;
+}
+
+button {
+    background-color: #fff;
+    color: #C9201B;
+    border: none;
+    padding: 5px
+}
+
+input {
+    padding: 5px;
+    
+}
+form {
+    text-align: center;
+}
+form,.senha {
+    padding-left: 87px;
+}
+
+.box {
+    background: #ffe5e4;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
