@@ -1,3 +1,4 @@
+/* Css global */
 .barra-azul {
     background-color: #3E558B; 
     color: #fff; 
@@ -41,8 +42,4 @@ input {
     padding: 5px;
     
 }
-
-#submenu-instituicao
-{
-    font-size: 20px;
-}
+/* Css global */
