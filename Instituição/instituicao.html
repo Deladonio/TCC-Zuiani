@@ -26,17 +26,19 @@
         <button>Buscar</button>
     </div>
     
-</div>
-    
+</div>    
     <h1>Nossa Instituição</h1>
-
-    <h3 onclick="toggleInstituicao()" style="cursor: pointer;">Instituição</h3>
-    <ul id="submenu-instituicao" style="display: none;">
-        <li><a href="../Sobre o Zuiani/zuiani.html">Sobre a nossa escola</a></li>
-        <li><a href="../Direção/direcao.html">Direção</a></li>
-        <li>Corpo docente</li>
-        <li>Localização</li>
-    </ul>
+    
+    <div class="container">
+        <div class="menu-lateral">
+            <h3 onclick="toggleInstituicao()">Instituição</h3>
+            <ul id="submenu-instituicao" style="display: none;"></ul>
+        </div>
+        <div class="conteudo" id="conteudo-dinamico">
+            <!-- O conteúdo será carregado aqui -->
+            <p>Selecione uma opção no menu lateral para ver o conteúdo.</p>
+        </div>
+    </div>
 </body>
 <script src="script_inst.js"></script>
 </html>
