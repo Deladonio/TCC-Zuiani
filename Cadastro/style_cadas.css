@@ -51,9 +51,56 @@ form,.senha {
     padding-left: 87px;
 }
 
+ .main {
+  height: calc(100vh - 60px); /* ocupa o resto da tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3; /* fundo cinza */
+}
 .box {
-    background: #ffe5e4;
+    background: #47619e;
     height: 80vh;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    height: 363px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 0 8px;
+    min-height: 100vh;
+  }
+  .box {
+    width: 100%;
+    min-width: unset;
+    max-width: 98vw;
+    padding: 18px 6px 16px 6px;
+    border-radius: 12px;
+  }
+  form {
+    padding-left: 0 !important;
+    width: 100%;
+  }
+  input, button {
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .senha {
+    padding-left: 0 !important;
+    text-align: right;
+  }
+}
+@media (max-width: 400px) {
+  .box {
+    padding: 10px 2px 10px 2px;
+    border-radius: 8px;
+  }
 }
